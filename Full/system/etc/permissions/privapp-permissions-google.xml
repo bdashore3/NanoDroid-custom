@@ -54,7 +54,7 @@
 		<permission name="android.permission.READ_RUNTIME_PROFILES"/>
 	</privapp-permissions>
 	
-	<privapp-permissions package="com.deletescape.lawnchair.ci">
+	<privapp-permissions package="ch.deletescape.lawnchair.ci">
 		<permission name="android.permission.FORCE_STOP_PACKAGES"/>
 		<permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
 		<permission name="android.permission.MANAGE_ACTIVITY_STACKS"/>
