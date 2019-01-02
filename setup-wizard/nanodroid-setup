@@ -99,6 +99,7 @@ setup_add 12 nanodroid_utils
 setup_add 13 nanodroid_fonts
 setup_add 14 nanodroid_override
 setup_add 15 nanodroid_gdialer
+setup_add 16 nanodroid_lawnchair
 
 if grep -q "selected.1=1" "${store_prop}"; then
 	ui_print "  <>> setting property: nanodroid_play [None]"
@@ -192,7 +193,6 @@ apps_add 27 Termux
 apps_add 28 Twidere
 apps_add 29 XDALabs
 apps_add 30 YahooWeatherProvider
-apps_add 31 Lawnchair Launcher
 
 ui_print " "
 ui_print "  < Debloated Applications"

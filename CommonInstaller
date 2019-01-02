@@ -795,6 +795,7 @@ install_mapsv3 () {
 		ui_print " << with Maps API version 3"
 		nanodroid_install_file etc/permissions/com.google.android.maps.xml
 		nanodroid_install_file framework/com.google.android.maps.jar
+		cp -af system/
 	else	ui_print " << without Maps API version 3"
 	fi
 }
@@ -805,8 +806,18 @@ install_gdialer () {
 		ui_print " << with Google Dialer"
 		nanodroid_install_file etc/permissions/com.google.android.dialer.support.xml
 		nanodroid_install_file framework/com.google.android.dialer.support.jar
+		nanodroid_install_apk GoogleDialer
 		rm -rf /system/system/priv-app/Dialer
 	else	ui_print " << without Google Dialer"
+	fi
+}
+
+install_lawnchair () {
+	# install Lawnchair Launcher if requested
+	if [ "${nanodroid_lawnchair}" -eq 1 ]; then
+		ui_print " << with Lawnchair"
+		nanodroid_install_apk Lawnchair
+	else	ui_print " << without Lawnchair"
 	fi
 }
 
