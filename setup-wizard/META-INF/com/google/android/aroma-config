@@ -69,7 +69,7 @@ checkbox(
 	"Apps",		"Install Apps (customized later)",			1,
 	"Overlay",	"Debloat Apps (customized later)",			1,
 	"Zelda Tunes",	"Install The Legend of Zelda rintones and sounds",	1,
-	"Maps API v1",	"Install Google Maps API version 1",			1,
+	"Maps API v3",	"Install Google Maps API version 3",			1,
 	"Init Scripts",	"Install init scripts",					1,
 	"Google Sync",	"Install Google Contacts & Calendar Sync",		0,
 	"Swipe",	"Install Swipe libraries",				0,
@@ -78,7 +78,8 @@ checkbox(
 	"GNU Nano",	"Install GNU Nano Terminal Editor",			1,
 	"Shell Utils",	"Install Shell Utils from bsdmainutils and util-linux",	1,
 	"Nintendo Fonts", "Install Nintendo Fonts",				1,
-	"Override",	"Override ROM apps that are included in NanoDroid",	0
+	"Override",	"Override ROM apps that are included in NanoDroid",	0,
+	"Gdialer", 	"Install Google Dialer",				0
 );
 
 selectbox(
@@ -169,7 +170,7 @@ checkbox(
 	"Termux",			"Powerful Terminal Emulator",		1,
 	"Twidere",			"Customizable Twitter Client",		1,
 	"XDALabs",			"XDA at the palm of your hands",	1,
-	"YahooWeatherProvider",		"Use Yahoo! for Wheather Data",		1
+	"YahooWeatherProvider",		"Use Yahoo! for weather Data",		1
 );
 
 checkbox(
@@ -208,7 +209,8 @@ checkbox(
 	"ViaBrowser",			"Web Browser",			1,
 	"Wallpaper",			"Wallpaper App (Google)",	1,
 	"WallpaperBackup",		"Wallpaper Backup (Google)",	1,
-	"WallpaperPickerGoogle",	"Wallpaper App (Google)",	1
+	"WallpaperPickerGoogle",	"Wallpaper App (Google)",	1,
+	"Dialer",			"Dialer app (Stock)",		0
 );
 
 viewbox(

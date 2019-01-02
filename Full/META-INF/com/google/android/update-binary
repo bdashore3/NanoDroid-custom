@@ -40,10 +40,13 @@ set_progress 0.3
 
 install_nanodroidscripts
 install_microg
-install_mapsv1
+install_mapsv3
+install_gdialer
 install_gsync
 install_fdroid
 install_store
+set_progress 0.5
+
 set_progress 0.5
 
 install_apps
