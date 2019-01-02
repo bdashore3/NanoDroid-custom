@@ -170,7 +170,8 @@ checkbox(
 	"Termux",			"Powerful Terminal Emulator",		1,
 	"Twidere",			"Customizable Twitter Client",		1,
 	"XDALabs",			"XDA at the palm of your hands",	1,
-	"YahooWeatherProvider",		"Use Yahoo! for weather Data",		1
+	"YahooWeatherProvider",		"Use Yahoo! for weather Data",		1,
+	"Lawnchair Launcher",		"Pixel launcher with more features",	0
 );
 
 checkbox(
@@ -210,7 +211,8 @@ checkbox(
 	"Wallpaper",			"Wallpaper App (Google)",	1,
 	"WallpaperBackup",		"Wallpaper Backup (Google)",	1,
 	"WallpaperPickerGoogle",	"Wallpaper App (Google)",	1,
-	"Dialer",			"Dialer app (Stock)",		0
+	"Dialer",			"Dialer app (Stock)",		0,
+	"Quickstep",			"AOSP launcher",		1
 );
 
 viewbox(
