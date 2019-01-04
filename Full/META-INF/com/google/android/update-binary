@@ -41,7 +41,6 @@ set_progress 0.3
 install_nanodroidscripts
 install_microg
 install_mapsv3
-install_lawnchair
 install_gdialer
 install_gsync
 install_fdroid

@@ -79,8 +79,7 @@ checkbox(
 	"Shell Utils",	"Install Shell Utils from bsdmainutils and util-linux",	1,
 	"Nintendo Fonts", "Install Nintendo Fonts",				1,
 	"Override",	"Override ROM apps that are included in NanoDroid",	0,
-	"Gdialer", 	"Install Google Dialer",				0,
-	"Lawnchair",	"Install Lawnchair Launcher",				0
+	"Gdialer", 	"Install Google Dialer",				0
 );
 
 selectbox(
@@ -171,7 +170,8 @@ checkbox(
 	"Termux",			"Powerful Terminal Emulator",		1,
 	"Twidere",			"Customizable Twitter Client",		1,
 	"XDALabs",			"XDA at the palm of your hands",	1,
-	"YahooWeatherProvider",		"Use Yahoo! for weather Data",		1
+	"YahooWeatherProvider",		"Use Yahoo! for weather Data",		1,
+	"Lawnchair Launcher",		"Pixel launcher with more features",	0
 );
 
 checkbox(
