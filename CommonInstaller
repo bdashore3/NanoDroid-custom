@@ -22,7 +22,6 @@ GoogleLoginService
 GoogleOneTimeInitializer
 GoogleServicesFramework
 GoogleConnectivityServices
-GoogleTTS
 IchnaeaNlpBackend
 LegacyNetworkLocation
 MarketUpdater
