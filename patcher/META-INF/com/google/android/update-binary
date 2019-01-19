@@ -46,10 +46,6 @@ setup_patcher
 detect_sdk
 detect_arch
 
-if search_fake_package_signature; then
-	error    " ROM has native signature spoofing already!"
-fi
-
 detect_odex
 
 [ -f ${MAGISK_IMG} ] && magisk_setup
