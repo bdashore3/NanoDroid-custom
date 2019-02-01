@@ -167,8 +167,9 @@ detect_outfd () {
 show_banner () {
 	ui_print " "
 	ui_print "*****************************"
-	ui_print "   NanoDroid ${VERSION}   "
-	ui_print "      created by Nanolx      "
+	ui_print "   NanoDroid Custom ${VERSION}   "
+	ui_print "      created by Nanolx       "
+    ui_print "       Modded by kingbri        "
 	case ${MODID} in
 		NanoDroid )
 			ui_print "        Full package         "
