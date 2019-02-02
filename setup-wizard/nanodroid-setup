@@ -202,7 +202,8 @@ apps_add 27 Termux
 apps_add 28 Twidere
 apps_add 29 XDALabs
 apps_add 30 YahooWeatherProvider
-apps_add 31 Lawnchair Launcher
+apps_add 31 Messaging
+apps_add 32 ims
 
 ui_print " "
 ui_print "  < Debloated Applications"
@@ -238,7 +239,6 @@ overlay_add 28 Wallpaper
 overlay_add 29 WallpaperBackup
 overlay_add 30 WallpaperPickerGoogle
 overlay_add 31 Dialer
-overlay_add 32 Quickstep
 
 exit 0
 
